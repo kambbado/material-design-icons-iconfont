@@ -65,3 +65,9 @@ npm install material-design-icons-iconfont --save
 
 
 - **Maintenance** - The original repository's release has **missing icons** that should be included according to [https://material.io/tools/icons](https://material.io/tools/icons)
+
+
+
+### [Demo Page](https://jossef.github.io/material-design-icons-iconfont)
+
+![image](https://user-images.githubusercontent.com/1287098/47608007-44a8d200-da30-11e8-8750-694fb2fb26e4.png)

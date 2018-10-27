@@ -1,7 +1,6 @@
 import re
 import os
 import requests
-import shutil
 
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 DIST_DIR = os.path.join(SCRIPT_DIR, '..', 'dist')
@@ -32,10 +31,11 @@ Mozilla/5.0 (Android 8.1.0; Mobile; rv:61.0) Gecko/61.0 Firefox/61.0
 
 
 def download_file(url, file_path):
-    r = requests.get(url, headers={"user-agent": default_user_agent}, stream=True)
+    r = requests.get(url, headers={"user-agent": default_user_agent})
     r.raise_for_status()
+    print(url)
     with open(file_path, 'wb') as f:
-        shutil.copyfileobj(r.raw, f)
+        f.write(r.content)
 
 
 def main():

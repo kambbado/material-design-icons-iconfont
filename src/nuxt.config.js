@@ -1,7 +1,4 @@
 export default {
-  generate: {
-    dir: '../'
-  },
   build: { 
     extend(config, { isDev, isClient }) {
       if (!isDev) {

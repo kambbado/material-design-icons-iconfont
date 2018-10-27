@@ -1,7 +1,6 @@
 {
   "name": "material-design-icons-iconfont-github-pages",
   "dependencies": {
-    "axios": "^0.18.0",
     "node-sass": "^4.9.4",
     "nuxt": "^2.2.0",
     "sass-loader": "^7.1.0"

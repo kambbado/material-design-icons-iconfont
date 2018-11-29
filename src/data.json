@@ -1266,6 +1266,12 @@
           "id": "file_copy"
         },
         {
+          "id": "file_download"
+        },
+        {
+          "id": "file_upload"
+        },
+        {
           "id": "filter_list"
         },
         {

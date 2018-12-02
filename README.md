@@ -117,7 +117,7 @@ pip install -r requirements.txt
 1. The build folder whould be properly installed.
 2. Go to build folder and install dependencies:
 ```
-cd backend
+cd build
 source .venv/bin/activate #source .venv/Scripts/activate on Windows
 python build.py
 ```
